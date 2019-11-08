@@ -34,7 +34,7 @@
 			"ln -sfr /app/share/crush/crush /app/bin",
 			"ln -sfr /app/share/crush/coadd /app/bin",
 			"ln -sfr /app/share/crush/detect /app/bin",
-			"ln -sfr /app/share/crush/difference /app/bin",
+			"ln -sfr /app/share/crush/difftool /app/bin",
 			"ln -sfr /app/share/crush/esorename /app/bin",
 			"ln -sfr /app/share/crush/histogram /app/bin",
 			"ln -sfr /app/share/crush/imagetool /app/bin",
@@ -43,13 +43,13 @@
 		"sources": [
 		{
 			"type": "archive",
-			"url": "https://github.com/attipaci/crush/releases/download/2.50-1/crush-2.50-1.tar.gz",
-			"sha256": "e5c95d0dd2fa99a865ae04d6fe8260070cd8507f1cdcce6ad14aef35fba7963f"
+			"url": "https://github.com/attipaci/crush/releases/download/2.50-2/crush-2.50-2.tar.gz",
+			"sha256": "69a400e17dd5713df55df13950481166dc7c095411f5f9fc9c9e522a92fbbd2e"
 		},
 		{
 			"type": "file",
 			"url": "https://www.sigmyne.com/crush/com.sigmyne.crush.appdata.xml",
-			"sha256": "a5db43badab68d1b7338ffd40a6cbacb1d273e6409dd29c13e6c8d6f0948bd54"
+			"sha256": "6146a5a021eaaa6e7b4c9b7ffc334d07eaf205d5ccfcdb66e1380ec550fdc58c"
 		}
 		]
 	}
