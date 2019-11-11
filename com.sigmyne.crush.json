@@ -20,7 +20,6 @@
 			"/usr/lib/sdk/openjdk/install.sh",
 			"mkdir -p /app/share/crush",
 			"mkdir -p Install/posix/share/metainfo",
-			"mv com.sigmyne.crush.appdata.xml Install/posix/share/metainfo/",
 			"cp -a Install/posix/share /app/",
 			"cp -a Install/posix/man /app/share/",
 			"mkdir -p /app/share/doc/crush",
@@ -44,12 +43,7 @@
 		{
 			"type": "archive",
 			"url": "https://github.com/attipaci/crush/releases/download/2.50-2/crush-2.50-2.tar.gz",
-			"sha256": "25eb123a9b8f81d798e24de9e3f26bbf2f39662574cdb3bdd7afc85b780af161"
-		},
-		{
-			"type": "file",
-			"url": "https://www.sigmyne.com/crush/com.sigmyne.crush.appdata.xml",
-			"sha256": "206447b9d5859008c1136086edbcb38b51d12aa393ad20c15ed91ab670c18d28"
+			"sha256": "8ad2ebfa78df775e5c1740db3b32ec8965d89adffe4cc320b23bc935f82d4be5"
 		}
 		]
 	}
