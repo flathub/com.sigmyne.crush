@@ -5,6 +5,7 @@
 	"sdk": "org.freedesktop.Sdk",
 	"sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk" ],
 	"command": "crush",
+    "rename-icon": "crush.png",
 	"finish-args": [
 		"--share=network",
 		"--socket=wayland",
@@ -39,7 +40,6 @@
 			"ln -sfr /app/share/crush/imagetool /app/bin",
 			"ln -sfr /app/share/crush/show /app/bin"
 		],
-        "rename-icon": "crush.png",
 		"sources": [
 		{
 			"type": "archive",
