@@ -37,13 +37,14 @@
 			"ln -sfr /app/share/crush/esorename /app/bin",
 			"ln -sfr /app/share/crush/histogram /app/bin",
 			"ln -sfr /app/share/crush/imagetool /app/bin",
-			"ln -sfr /app/share/crush/show /app/bin"
+			"ln -sfr /app/share/crush/show /app/bin",
+            "rename-icon crush.png"
 		],
 		"sources": [
 		{
 			"type": "archive",
 			"url": "https://github.com/attipaci/crush/releases/download/2.50-2/crush-2.50-2.tar.gz",
-			"sha256": "e8f14bd924b89b155664b5f287c8b7ecc4ed4510e3bc6fa39150f503cd6dec81"
+			"sha256": "fbd88f9d3ccdc4e6b0ec6626a5fdcc605d91e3c81a16637feeb0dd96984a3055"
 		}
 		]
 	}
