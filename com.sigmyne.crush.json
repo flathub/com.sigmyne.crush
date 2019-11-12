@@ -37,9 +37,9 @@
 			"ln -sfr /app/share/crush/esorename /app/bin",
 			"ln -sfr /app/share/crush/histogram /app/bin",
 			"ln -sfr /app/share/crush/imagetool /app/bin",
-			"ln -sfr /app/share/crush/show /app/bin",
-            "rename-icon crush.png"
+			"ln -sfr /app/share/crush/show /app/bin"
 		],
+        "rename-icon": "crush.png",
 		"sources": [
 		{
 			"type": "archive",
