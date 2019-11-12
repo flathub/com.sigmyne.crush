@@ -4,7 +4,7 @@
 	"runtime-version": "18.08",
 	"sdk": "org.freedesktop.Sdk",
 	"sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk" ],
-	"command": "crush",
+	"command": "show",
     "rename-icon": "crush",
 	"finish-args": [
 		"--share=network",
