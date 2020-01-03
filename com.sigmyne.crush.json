@@ -4,7 +4,10 @@
 	"runtime-version": "18.08",
 	"sdk": "org.freedesktop.Sdk",
 	"sdk-extensions" : [ "org.freedesktop.Sdk.Extension.openjdk" ],
-	"command": "crush",
+	"command": "show",
+	"rename-appdata-file": "crush.appdata.xml",
+	"rename-icon": "crush",
+	"rename-desktop-file": "show.desktop",
 	"finish-args": [
 		"--share=network",
 		"--socket=wayland",
@@ -42,8 +45,8 @@
 		"sources": [
 		{
 			"type": "archive",
-			"url": "https://github.com/attipaci/crush/releases/download/2.50-2/crush-2.50-2.tar.gz",
-			"sha256": "2a044a2d7b4138d2fe421c5de5cd1f14c1c4db19d965dc51e140604eb1d7db1d"
+			"url": "https://www.sigmyne.com/crush/v2/crush-2.50-3.tar.gz",
+			"sha256": "63e9f5d432cf7ecb7010753d357c1b280c122d03768bb71ef36ae90577613528"
 		}
 		]
 	}
