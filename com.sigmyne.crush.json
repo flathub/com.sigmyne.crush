@@ -44,8 +44,8 @@
 		"sources": [
 		{
 			"type": "archive",
-			"url": "https://www.sigmyne.com/crush/v2/crush-2.50-3.tar.gz",
-			"sha256": "63e9f5d432cf7ecb7010753d357c1b280c122d03768bb71ef36ae90577613528"
+			"url": "https://github.com/attipaci/crush/releases/download/2.50-3/crush-2.50-3.tar.gz",
+			"sha256": "3d0f118c6e0084865d03e7fb964e6260f92b2868b23228db17e1936b8b2c4427"
 		}
 		]
 	}
