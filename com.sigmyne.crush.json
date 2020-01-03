@@ -10,8 +10,7 @@
 	"rename-desktop-file": "show.desktop",
 	"finish-args": [
 		"--share=network",
-		"--socket=wayland",
-		"--socket=fallback-x11",
+		"--socket=x11",
 		"--filesystem=host",
 		"--env=PATH=/app/jre/bin:/app/bin:/usr/bin"
 	],
@@ -33,7 +32,7 @@
 			"rm -rf Documentation",
 			"cp -a * /app/share/crush/",
 			"mkdir -p /app/bin",
-			"ln -sfr /app/share/crush/crush /app/bin",
+			"ln -sfr /app/share/crush/crush /app/bin/",
 			"ln -sfr /app/share/crush/coadd /app/bin",
 			"ln -sfr /app/share/crush/detect /app/bin",
 			"ln -sfr /app/share/crush/difftool /app/bin",
