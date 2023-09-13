@@ -46,6 +46,10 @@
 			"type": "archive",
 			"url": "https://github.com/attipaci/crush/releases/download/2.50-3/crush-2.50-3.tar.gz",
 			"sha256": "3d0f118c6e0084865d03e7fb964e6260f92b2868b23228db17e1936b8b2c4427"
+		},
+		{
+			"type": "patch",
+			"path": "appdata.patch"
 		}
 		]
 	}

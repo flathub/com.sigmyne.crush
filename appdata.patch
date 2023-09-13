@@ -1,0 +1,25 @@
+From 9ef564c5d3308eb790678e07ac17b7a2361a7d8a Mon Sep 17 00:00:00 2001
+From: bbhtt <bbhtt.zn0i8@slmail.me>
+Date: Wed, 13 Sep 2023 09:42:24 +0530
+Subject: [PATCH] Appdata patch
+
+---
+ Install/posix/share/metainfo/crush.appdata.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Install/posix/share/metainfo/crush.appdata.xml b/Install/posix/share/metainfo/crush.appdata.xml
+index f6b8e9d..86cde7c 100644
+--- a/Install/posix/share/metainfo/crush.appdata.xml
++++ b/Install/posix/share/metainfo/crush.appdata.xml
+@@ -116,7 +116,7 @@
+
+ <update_contact>attila_AT_sigmyne.com</update_contact>
+
+-<content_rating>none</content_rating>
++<content_rating type="oars-1.1" />
+
+ <mimetypes>
+ 	<mimetype>image/fits</mimetype>
+--
+2.41.0
+
