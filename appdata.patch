@@ -18,7 +18,7 @@
 -<mimetypes>
 -	<mimetype>image/fits</mimetype>
 -</mimetypes>
-+<content_rating>oars-1.1</content_rating>
++<content_rating type="oars-1.1" />
  
  <screenshots>
  	<screenshot type="default">
