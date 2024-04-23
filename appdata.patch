@@ -1,25 +1,31 @@
-From 9ef564c5d3308eb790678e07ac17b7a2361a7d8a Mon Sep 17 00:00:00 2001
-From: bbhtt <bbhtt.zn0i8@slmail.me>
-Date: Wed, 13 Sep 2023 09:42:24 +0530
-Subject: [PATCH] Appdata patch
-
----
- Install/posix/share/metainfo/crush.appdata.xml | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-diff --git a/Install/posix/share/metainfo/crush.appdata.xml b/Install/posix/share/metainfo/crush.appdata.xml
-index f6b8e9d..86cde7c 100644
---- a/Install/posix/share/metainfo/crush.appdata.xml
-+++ b/Install/posix/share/metainfo/crush.appdata.xml
-@@ -116,7 +116,7 @@
-
+--- a/Install/posix/share/metainfo/crush.appdata.xml	2024-04-23 10:50:12.266087993 +0200
++++ b/Install/posix/share/metainfo/crush.appdata.xml	2024-04-23 10:55:17.309957323 +0200
+@@ -36,7 +36,7 @@
+ <url type="bugtracker">https://github.com/attipaci/crush/issues</url>
+ <url type="donation">https://paypal.me/attipaci</url>
+ 
+-<launchable type="desktop-id">com.sigmyne.crush.:show.desktop</launchable>
++<launchable type="desktop-id">show.desktop</launchable>
+ 
+ <releases>
+ 	<release version="2.50-3" type="stable" date="2020-01-03" urgency="medium">
+@@ -116,11 +116,7 @@
+ 
  <update_contact>attila_AT_sigmyne.com</update_contact>
-
+ 
 -<content_rating>none</content_rating>
+-
+-<mimetypes>
+-	<mimetype>image/fits</mimetype>
+-</mimetypes>
 +<content_rating type="oars-1.1" />
-
- <mimetypes>
- 	<mimetype>image/fits</mimetype>
---
-2.41.0
-
+ 
+ <screenshots>
+ 	<screenshot type="default">
+@@ -130,6 +126,4 @@
+ 	</screenshot>
+ </screenshots>
+ 
+-<translation/>
+-
+ </component>
