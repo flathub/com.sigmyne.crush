@@ -1,5 +1,5 @@
---- crush.appdata.xml.0	2024-04-23 10:50:12.266087993 +0200
-+++ crush.appdata.xml	2024-04-23 10:55:17.309957323 +0200
+--- a/Install/posix/share/metainfo/crush.appdata.xml	2024-04-23 10:50:12.266087993 +0200
++++ b/Install/posix/share/metainfo/crush.appdata.xml	2024-04-23 10:55:17.309957323 +0200
 @@ -36,7 +36,7 @@
  <url type="bugtracker">https://github.com/attipaci/crush/issues</url>
  <url type="donation">https://paypal.me/attipaci</url>
