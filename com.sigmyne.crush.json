@@ -10,6 +10,7 @@
 	"rename-desktop-file": "show.desktop",
 	"finish-args": [
 		"--share=network",
+		"--share=ipc",
 		"--socket=x11",
 		"--filesystem=host",
 		"--env=PATH=/app/jre/bin:/app/bin:/usr/bin"
